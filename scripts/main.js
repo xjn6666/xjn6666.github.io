@@ -7,26 +7,28 @@ if (iceCream === 'chocolate') {
   alert('我最喜欢巧克力冰激淋了。');    
 } else {
   alert('但是巧克力才是我的最爱呀……');    
-} */
+}
 
-
-/* document.querySelector('html').onclick = function() {
+document.querySelector('html').onclick = function() {
     alert('别戳我，我怕疼。');
 } */
 
-let myImage = document.querySelector('img');
+
+
+
+/* let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'http://qdyfufbhj.bkt.clouddn.com/xjn-logo.png') {
-      myImage.setAttribute('src', 'images/hardware-group.jpg');
+      myImage.setAttribute('src', 'http://qdyfufbhj.bkt.clouddn.com/xjn-yellowgreen-touxiang.jpg');
     } else {
       myImage.setAttribute('src', 'http://qdyfufbhj.bkt.clouddn.com/xjn-logo.png');
     }
 }
 
-
-let myButton = document.querySelector('button');
+ */
+/* let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -47,4 +49,4 @@ if(!localStorage.getItem('name')) {
 }
 myButton.onclick = function() {
    setUserName();
-}
+} */
